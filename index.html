@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<title>Urban Tech Radar | Urban.US</title>
+		<link type="text/css" rel="stylesheet" href="css/techspace-radar.min.css" />
+
+	</head>
+
+	<body>
+
+		<div class="company dialog">
+			<a class="link" href="#" alt="#" target="_blank">
+				<div class="logo"></div>
+				<h3 class="name"></h3>
+			</a>
+		</div>
+
+		<div class="graph">
+
+			<svg>
+				<defs>
+
+					<radialGradient id="assurancegradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+						<stop offset="40%" stop-color="rgb(0,0,0)" stop-opacity=".4" />
+						<stop offset="60%" stop-color="rgb(0,0,0)" stop-opacity="0" />
+					</radialGradient>
+
+					<radialGradient id="safetygradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+						<stop offset="70%" stop-color="rgb(0,0,0)" stop-opacity=".3" />
+						<stop offset="93%" stop-color="rgb(0,0,0)" stop-opacity="0" />
+					</radialGradient>
+
+				</defs>
+			</svg>
+
+			<div class="legend">
+				<h4>Orbits / Channels Legend</h4>
+				<div class="legend-items">
+					<div class="legend-item core">
+						<div class="dot"></div>
+						<label>CORE</label>
+					</div>
+					<div class="legend-item assurance">
+						<div class="dot"></div>
+						<label>ASSURANCE</label>
+					</div>
+					<div class="legend-item safety">
+						<div class="dot"></div>
+						<label>SAFETY</label>
+					</div>
+					<div class="legend-item b2c">
+						<div class="dot"></div>
+						<label>B2C</label>
+					</div>
+					<div class="legend-item b2b">
+						<div class="dot"></div>
+						<label>B2B</label>
+					</div>
+					<div class="legend-item b2g">
+						<div class="dot"></div>
+						<label>B2G</label>
+					</div>
+				</div>
+			</div>
+
+		</div><!--
+
+		--><div class="ui">
+			<p class="instructions">
+				We organized the space around Problem Orbits and Distribution Channels.
+				In this radar we’ve included only a small subset of the companies we’re
+				researched, talked with and invested in. Use the search field or our
+				filter tools field to find them.
+			</p>
+
+			<a href="#" class="hide-instructions">Hide Instructions</a>
+
+			<input class="search" placeholder="search by tag">
+
+			<div class="keywords"></div>
+			<a href="#" class="show-all-keywords">Show more tags</a>
+
+			<div class="or center">or</div>
+
+			<div class="center">
+				<button class="clear">SHOW ALL</button>
+			</div>
+
+			<footer>
+				<img class="urban-us" src="images/urban-us.svg" />
+				<div class="cc">
+					<img src="images/cc.logo.svg" />
+					<a href="data/urbantech.csv" target="_blank">Download Data</a>
+					<a href="mailto:urbantech.radar@urban.us">Add a company</a>
+				</div>
+			</footer>
+
+		</div>
+
+		<script src="js/vendor/vendor.lib.min.js"></script>
+
+		<script src="js/techspace-radar.min.js"></script>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-58990713-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+
+	</body>
+
+</html>
