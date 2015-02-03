@@ -28,7 +28,7 @@ CINTEP,http://www.recyclingshower.com.au/,Core,B2C,Water,
 Citymapper,http://citymapper.com,Safety,B2C,"Mobility, Open Data",citymapper.png
 CityTrackerX,http://www.citytrackerx.com/,Safety,B2G,"Management, Citizen Engagement",citytracker.png
 Civic Insight,Http://civicinsight.com,Safety,B2G,"Urban Planning, Open Data",civicinsight.png
-Civico,http://www.civico.com/ciudades,Safety,"B2C, B2B","Secuirty, Open Data",civico.png
+Civico,http://www.civico.com/ciudades,Safety,"B2C, B2B","Security, Open Data",civico.png
 ClearPath,http://myfastestpath.com,Safety,B2C,Mobility,
 Cliqk,https://cliqk.com/,Assurance,B2C,"Energy Efficiency, Security, IOT",
 Compology,Http://compology.us,Core,B2B,"Waste, IOT",compology.png
@@ -61,9 +61,9 @@ Keen Home,http://keenhome.io,Assurance,B2C,"Energy Efficiency, Connected Home",k
 Kiwi Ki,Http://kiwi.ki,Safety,"B2B, B2C","IOT, Connected Home, Security",kiwiki.png
 Lagoon,http://goLagoon.com,Core,B2C,Water,lagoon.png
 Light Sail,http://lightsail.com,Assurance,B2B,Energy,
-Lit motors,http://litmotors.com/,Saftey,B2C,"Mobility, EVs",litmotors.png
+Lit motors,http://litmotors.com/,Safety,B2C,"Mobility, EVs",litmotors.png
 Citymart,http://citymart.com,Assurance,B2G,Procurement,
-LocalData,http://localdata.com/,Saftey,B2G,Citizen Engagement,localdata.png
+LocalData,http://localdata.com/,Safety,B2G,Citizen Engagement,localdata.png
 LOCK8,http://lock8.me,Safety,B2B,"Mobility, Security, Cycling",lock8.png
 Lockitron,http://lockitron.com,Safety,B2C,"Safety, Security, Access Control",
 LocalMotion,https://www.getlocalmotion.com/,Safety,"B2B, B2C",Mobility,localmotion.png
@@ -117,16 +117,16 @@ Seamless Docs,Http://seamlessdocs.com,Safety,B2G,Management,
 "SeeClickFix, Inc.",http://seeclickfix.com,Safety,B2G,Management,
 Sense6,http://sense6.net/,Safety,B2C,Wearables,
 Senseware,http://senseware.co,Safety,"B2B, B2G",Public Health,
-ShareRoller,http://www.shareroller.com/,Saftey,B2B,,
-Sidecar,Http://side.cr,Saftey,B2C,"Mobility, Ride Sharing",
+ShareRoller,http://www.shareroller.com/,Safety,B2B,,
+Sidecar,Http://side.cr,Safety,B2C,"Mobility, Ride Sharing",
 Sistine Solar,http://sistinesolar.com,Assurance,"B2B, B2G",Renewable Energy,
-Skycatch,http://skycatch.com,Saftey,"B2B, B2G",,skycatch.png
-Skylock,https://skylock.cc/,Saftey,B2C,"Mobility, Cycling",
+Skycatch,http://skycatch.com,Safety,"B2B, B2G",,skycatch.png
+Skylock,https://skylock.cc/,Safety,B2C,"Mobility, Cycling",
 Smart Picture Technologies,http://smartpicture3d.com/,Assurance,B2B,Procurement,
-Smartmumbaikar,http://www.m4mum.com/,Saftey,B2C,,
+Smartmumbaikar,http://www.m4mum.com/,Safety,B2C,,
 SmartProcure,http://smartprocure.us,Assurance,"B2B, B2G",Finance,
 SnapInspect,http://snapinspect.com,Assurance,B2G,Urban Planning,
-Social Bicycles,Http://socialbicycles.com,Saftey,B2B,"Mobility, Cycling, Sharing Economy",
+Social Bicycles,Http://socialbicycles.com,Safety,B2B,"Mobility, Cycling, Sharing Economy",
 Sungage,http://sungage.net,Assurance,B2B,,
 Superpedestrian,http://superpedestrian.com,Safety,B2C,"Mobility, E-Bikes, Personal Mobility",
 Flykly,http://flykly.com/,Safety,B2C,"Mobility, E-Bikes, Personal Mobility",
@@ -141,7 +141,7 @@ thewinddrinker,http://www.thewinddrinker.com/,Core,"B2G, B2C","Water, Renewable 
 Traffi,http://www.trafi.com/,Assurance,B2C,"Mobility, Public Transit",
 Transitmix,http://www.transitmix.net/,Assurance,B2G,"Mobility, Public Transit",
 Uber,http://uber.com,Safety,"B2B, B2C","Mobility, Ride Sharing",uber.png
-UniKey Technologies,http://unikey.com,Safety,"B2B, B2C","Safety, Secrurity, Access Control",
+UniKey Technologies,http://unikey.com,Safety,"B2B, B2C","Safety, Security, Access Control",
 Urbanflow Engine,http://urbanflowengine.com,Assurance,B2G,Urban Planning,
 Urban Engines,https://urbanengines.com/,Safety,B2G,Mobility,
 Vacant Voices,Http://VacantVoices.com,Assurance,B2G,Urban Planning,
@@ -154,7 +154,7 @@ Water Status,http://waterstatus.splashthat.com/,Core,B2C,Water,
 Watershed Materials,Http://watershedmaterials.com,Assurance,B2B,"Construction, Energy Efficiency",
 Waze Mobile Ltd.,http://www.waze.com,Safety,B2C,"Mobility, Traffic",waze.png
 WeatherCloud Inc.,weathercloud.co,Safety,"B2B, B2G","Weather, Mobility",
-Weathermob Inc.,http://weathermob.me,Safety,"B2B, B2G","Weather, Reslience",
+Weathermob Inc.,http://weathermob.me,Safety,"B2B, B2G","Weather, Resilience ",
 What Up Bridge,Http://whatupbridge.com,Safety,"B2B, B2G","Mobility, Traffic",
 ZBoard,http://zboardshop.com,Safety,B2C,"Mobility, Personal Mobility",
 Zipurb,http://zipurb.com,Safety,B2C,"Mobility, Personal Mobility",
