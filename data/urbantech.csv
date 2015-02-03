@@ -40,8 +40,8 @@ Dropcountr,http://dropcountr.com/,Core,B2C,Water,dropcountr.png
 "e-Chromic Technologies, Inc.",http://www.echromic.com/,Assurance,B2B,Energy,
 Enertiv,http://enertiv.com,Assurance,B2B,"Energy Efficiency, IOT",enertiv.png
 Farmigo,http://farmigo.com,Core,B2B,Food,
-FirstFuel Software,Http://firstfuel.com,Assurnace,B2B,Energy Efficiency,firstfuel.png
-Flair Vents,http://www.flair.zone/,Assurnace,B2C,"Energy Efficiency, IOT",fortified.png
+FirstFuel Software,Http://firstfuel.com,Assurance,B2B,Energy Efficiency,firstfuel.png
+Flair Vents,http://www.flair.zone/,Assurance,B2C,"Energy Efficiency, IOT",fortified.png
 Fortified Bicycle,http://fortifiedbike.com/,Safety,B2C,"Mobility, Cycling",
 Fuse from Kynetx,http://joinfuse.com,Safety,B2C,"Mobility, Connected Car, IOT",fuse.png
 FusedCow,http://fusedcow.com/,Core,"B2B, B2C",Energy Efficiency,fusedcow.png
@@ -50,7 +50,7 @@ Future Motion,rideonewheel.com,Safety,B2C,"Mobility, Personal Mobility",futuremo
 GetTaxi,http://gettaxi.com,Safety,B2C,Mobility,
 Goal Zero,http://goalzero.com,Assurance,B2C. B2B,Energy,
 GOVonomy,https://www.govonomy.com/,Assurance,"B2G, B2B",Procurement,
-Greater Places,http://greaterplaces.com,Assurnace,B2G,Urban Planning,
+Greater Places,http://greaterplaces.com,Assurance,B2G,Urban Planning,
 Hailo,http://hailocab.com,Safety,B2C,"Mobility, Car Sharing",hailo.png
 HammerHead,http://hammerhead.io/,Safety,B2C,"Mobility, Cycling, IOT",hammerhead.png
 HandUp,Http://handup.us,Core,"B2C, B2B","Housing, Crowdfunding, Public Safety",handup.png
@@ -80,7 +80,7 @@ Modria,http://modria.com,Safety,"B2B, B2G",Legal,modria.png
 More Aqua Inc,http://www.moreaqua.com/,Core,"B2B, B2G",Water,moreaqua.png
 Mozio,http://www.mozio.com/,Safety,"B2C, B2B",Mobility,mozio.png
 mPowerd,https://www.mpowerd.com,Assurance,B2C,Solar,
-MuniRent,http://munirent.co,Assurnace,B2G,"Finance, Sharing Economy",munirent.png
+MuniRent,http://munirent.co,Assurance,B2G,"Finance, Sharing Economy",munirent.png
 Navdy,http://navdy.com,Safety,B2C,"Mobility, Connected Car",navdy.png
 Neighbor.ly,http://neighbor.ly,Assurance,"B2G, B2C","Finance, Crowdfunding",neighborly.png
 Nest Labs,http://nest.com,Assurance,B2C,Energy Efficiency,nest.png
@@ -124,7 +124,7 @@ Skycatch,http://skycatch.com,Saftey,"B2B, B2G",,skycatch.png
 Skylock,https://skylock.cc/,Saftey,B2C,"Mobility, Cycling",
 Smart Picture Technologies,http://smartpicture3d.com/,Assurance,B2B,Procurement,
 Smartmumbaikar,http://www.m4mum.com/,Saftey,B2C,,
-SmartProcure,http://smartprocure.us,Assurnace,"B2B, B2G",Finance,
+SmartProcure,http://smartprocure.us,Assurance,"B2B, B2G",Finance,
 SnapInspect,http://snapinspect.com,Assurance,B2G,Urban Planning,
 Social Bicycles,Http://socialbicycles.com,Saftey,B2B,"Mobility, Cycling, Sharing Economy",
 Sungage,http://sungage.net,Assurance,B2B,,
@@ -132,19 +132,19 @@ Superpedestrian,http://superpedestrian.com,Safety,B2C,"Mobility, E-Bikes, Person
 Flykly,http://flykly.com/,Safety,B2C,"Mobility, E-Bikes, Personal Mobility",
 Sustainable MicroFarms,https://angel.co/sustainable-microfarms-1,Core,B2C,Food,
 T Dispatch,http://tdispatch.com,Safety,"B2B, B2G","Fleet Management, Mobility",
-tado° GmbH,http://tado.com,Assurnace,B2C,"Home, IOT, Energy",
+tado° GmbH,http://tado.com,Assurance,B2C,"Home, IOT, Energy",
 Tevatronic,http://www.tevatronic.net/,Core,B2B,,
 Textizen,https://www.textizen.com,Safety,B2G,Management,
 The Constituent,http://the-constituent.com,Assurance,B2B,,
 The Transit App,http://thetransitapp.com,Safety,"B2C, B2G","Mobility, Public Transit",
 thewinddrinker,http://www.thewinddrinker.com/,Core,"B2G, B2C","Water, Renewable Energy",
 Traffi,http://www.trafi.com/,Assurance,B2C,"Mobility, Public Transit",
-Transitmix,http://www.transitmix.net/,Assurnace,B2G,"Mobility, Public Transit",
+Transitmix,http://www.transitmix.net/,Assurance,B2G,"Mobility, Public Transit",
 Uber,http://uber.com,Safety,"B2B, B2C","Mobility, Ride Sharing",uber.png
 UniKey Technologies,http://unikey.com,Safety,"B2B, B2C","Safety, Secrurity, Access Control",
 Urbanflow Engine,http://urbanflowengine.com,Assurance,B2G,Urban Planning,
 Urban Engines,https://urbanengines.com/,Safety,B2G,Mobility,
-Vacant Voices,Http://VacantVoices.com,Assurnace,B2G,Urban Planning,
+Vacant Voices,Http://VacantVoices.com,Assurance,B2G,Urban Planning,
 ValetAnywhere,http://valetanywhere.com,Safety,B2C,"Mobility, Parking",
 Verengo Solar,http://verengosolar.com,Assurance,"B2C, B2B",Solar,
 VIA Analytics,Http://v-a.io,Safety,B2G,"Mobility, Public Transit",
