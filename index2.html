@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<meta property="og:image" content="/images/screenshot.jpg">
+		<meta property="og:description" content="What is UrbanTech? Technology has always shaped urban and suburban environments. Urbantech describes the emerging technologies that are being used to solve urban problems from reducing energy use and greenhouse gas emissions to reducing homelessness. ">
+		<title>Urbantech Radar | Urban.US</title>
+		<link rel="stylesheet" id="open-sans-css" href="//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&amp;subset=latin%2Clatin-ext&amp;ver=4.0.1" type="text/css" media="all">
+		<link type="text/css" rel="stylesheet" href="css/techspace-radar.min.css" />
+
+		<style type="text/css">
+		
+		::-webkit-scrollbar {
+		    -webkit-appearance: none;
+		    width: 7px;
+		}
+		::-webkit-scrollbar-thumb {
+		    border-radius: 4px;
+		    background-color: rgba(0,0,0,.5);
+		    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+		}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="company dialog" style="max-width: 300px;">
+			<a class="link" href="#" alt="#" target="_blank">
+				<div class="logo"></div>
+				<h3 class="name"></h3>
+				<span class="description"></span>
+				<br><br>
+				<span class="investors"></span>
+			</a>
+		</div>
+
+		<div class="graph">
+
+
+
+			<div class="legend">
+				<!-- <h4>Orbits / Channels Legend</h4> -->
+				<div class="legend-items">
+					<div class="legend-item core">
+						<div class="dot"></div>
+						<label>CORE</label>
+					</div>
+					<div class="legend-item assurance">
+						<div class="dot"></div>
+						<label>ASSURANCE</label>
+					</div>
+					<div class="legend-item safety">
+						<div class="dot"></div>
+						<label>SAFETY</label>
+					</div>
+					<div class="legend-item b2c">
+						<div class="dot"></div>
+						<label>B2C</label>
+					</div>
+					<div class="legend-item b2b">
+						<div class="dot"></div>
+						<label>B2B</label>
+					</div>
+					<div class="legend-item b2g">
+						<div class="dot"></div>
+						<label>B2G</label>
+					</div>
+				</div>
+			</div>
+
+			<svg>
+				<defs>
+
+					<radialGradient id="assurancegradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+						<stop offset="40%" stop-color="rgb(0,0,0)" stop-opacity=".4" />
+						<stop offset="60%" stop-color="rgb(0,0,0)" stop-opacity="0" />
+					</radialGradient>
+
+					<radialGradient id="safetygradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+						<stop offset="70%" stop-color="rgb(0,0,0)" stop-opacity=".3" />
+						<stop offset="93%" stop-color="rgb(0,0,0)" stop-opacity="0" />
+					</radialGradient>
+
+				</defs>
+			</svg>
+		</div><!--
+
+		--><div class="ui">
+				<h1 style="color:grey;">Urbantech Radar <img src="/images/beta.png"/></h1>
+
+			<div class="instructions collapsed">
+				<p style="line-height:1;">
+				<h3>What is UrbanTech?</h3>
+				Technology has always shaped urban and suburban environments. Urbantech describes the emerging technologies that are being used to solve urban problems from reducing energy use and greenhouse gas emissions to reducing homelessness. 
+				<br /><br />
+				Over the last 18 months at Urban.Us, we’ve tracked 100s of startups that are working on Ubantech problems. We want to understand what problems they are solving as well as their customer focus (B2C, B2B, B2G). 
+				<br /><br />				
+				We created the Urbantech radar to allow us to quickly visualize companies according to their customers and their problem orbit. It reveals some interesting patterns about where founders and investors have chosen to focus, but also where there is open space and opportunity. 
+				<br /><br />
+				<h3>Orbits & Channels</h3>
+				<strong>Core Orbit</strong> - The city’s most basic needs include shelter, food, waste, water and air. Much like Maslow’s basic needs, it’s easy to take these things for granted, but we notice them when they stop working.
+				<br /><br />
+				<strong>Assurance Orbit</strong> -  includes the things necessary to access the core elements like energy, connectivity and resilience in the face of weather events. Like the core, they are often invisible until they stop working. No energy? Good luck pumping water. 
+				<br /><br />
+				<strong>Safety Orbit</strong> - includes the elements that most of us use and interact with directly like public safety or transit as well as being able to move around quickly and conveniently without worrying about crime is an essential enabler of urban living.
+				<br /><br />
+				<strong>Channels</strong> - companies that focus on consumers are clustered on the upper right of the radar (B2C). On the upper left the focus is on business customers (B2B) and the lower cluster is for companies focused on sales to local government (B2G). 
+				<br /><br />
+				<h3>Using the Radar</h3>
+				Each UrbanTech startup is represented by a "blip." Hovering over the blip will reveal the company name and link to their website. You can use the search box or tags to find specific companies or groups of companies. Clicking "Show All" will return to the default view, showing all companies.
+				<br /><br />
+				<strong>Sectors</strong> - blips can fall within one or more sectors to highlight their main customer and channel - Consumers/Citizens (B2C), Businesses (B2B) or Government (B2G).
+				<br /><br />
+				More background at <a href="http://urban.us/urbantech/" target="_blank">http://urban.us/urbantech/</a>
+			    </p>
+			    <br>
+			</div>
+
+			<a href="#" class="hide-instructions">Show Instructions</a>
+
+			<input class="search" placeholder="search by tag">
+
+			<div class="keywords"></div>
+			<a href="#" class="show-all-keywords">Show more tags</a>
+
+			<div class="or center">or</div>
+
+			<div class="center">
+				<button class="clear">SHOW ALL</button>
+			</div>
+
+			<footer>
+				<a href="http://urban.us" target="_blank"><img class="urban-us" src="images/urban-us.png" style="
+				    height: 10%;
+				    margin-bottom: 116px;
+				    margin-right: 28px;
+				"></a>
+				<!-- <a href="http://smartcitystartups.com" target="_blank"><img class="urban-us" src="images/scs415_logo.jpg" style="
+    				height: 174px;
+				"></a>	-->			
+				<div class="cc">
+					<img src="images/cc.logo.svg" style="
+    margin-bottom: 10px;
+">
+					<a href="data/urbantech.csv" target="_blank">Download Data</a>
+
+					<a href="https://mail.google.com/a/urban.us/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=hello@urban.us" target="_blank">Add a company</a>
+				</div>
+			</footer>
+
+		</div>
+
+		<script src="js/vendor/vendor.lib.min.js"></script>
+
+		<script src="js/techspace-radar.js"></script>
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-58997631-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+
+	</body>
+
+</html>
