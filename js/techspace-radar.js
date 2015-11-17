@@ -8,7 +8,8 @@ function loadData() {
             //for (var n = 0; n < featuredCompanies.length; n++) 
             //    e["Company Name"].toLowerCase() === featuredCompanies[n].toLowerCase() && (t = !0);
             //console.log((e["Total Funding"] > 60000000) && (t = !0));
-            (e["Total Funding"] > 31000000) && (t = !0);
+            //(e["Total Funding"] > 31000000) && (t = !0);
+            (e["Featured"] == 1) && (t = !0);
             return t; 
         }), keywords = _.uniq(keywords), tags = _.uniq(tags), keywords = _.filter(keywords, function(e) {
             return e !== ""
