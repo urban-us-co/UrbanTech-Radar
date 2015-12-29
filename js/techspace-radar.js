@@ -19,7 +19,8 @@ function loadData() {
             return e !== ""
         }), tags = _.map(tags, function(e) {
             return e.trim()
-        }), keywords = _.uniq(keywords), tags = _.uniq(tags), initTypeAhead(), initTags();
+        }), keywords = _.uniq(keywords), tags = _.uniq(_.map(tags, function(s){ return _.isString(s) ? s.toLowerCase() : s; })), initTypeAhead(), initTags();
+
         for (var n = 0; n < e.length; n++) {
             var r = {
                 name: e[n],
