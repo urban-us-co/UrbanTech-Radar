@@ -282,7 +282,7 @@ function showCompanyInfo(e, t, n) {
         top: n.pageY + 20 + "px",
         left: n.pageX - i.width / 2 + "px"
     }), r.addClass("top").removeClass("bottom")), r.addClass("active");
-    console.log(e);
+
     r.find(".investors").html("");
     if(e["Investors"].split("|").length >= 1){
         if(e["Investors"].split("|")[0] !== ""){
@@ -293,7 +293,7 @@ function showCompanyInfo(e, t, n) {
     }
     r.find(".funding").html("");
     if(e["Stage"].length >= 1){
-        r.find(".funding").html("<strong>Funding Stage :</strong> "+e["Stage"].join(", ") + "<br>"); 
+        r.find(".funding").html("<strong>Funding Stage :</strong> "+e["Stage"] + "<br>"); 
     }    
     if(e["Channel"].length >= 1){
         r.find(".channel").html("<strong>Distribution Channel :</strong> "+e["Channel"].join(", ") + "<br>"); 
