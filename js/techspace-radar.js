@@ -33,8 +33,13 @@ function loadData() {
         problemareas = _.map(problemareas, function(e) {
             return e.data.sort(function(e, t) {
                 if (e["Business Model"].length > 1) {
-                    if (e["Business Model"][0] === "B2C" && e["Business Model"][1] === "B2B") return 1;
-                    if (e["Business Model"][0] === "B2C" && e["Business Model"][1] === "B2G") return -1;
+                    if(e["Business Model"].indexOf("B2C") > 0 ){
+                        var ind = e["Business Model"].indexOf("B2C");
+                        e["Business Model"].splice(ind, 1);
+                        e["Business Model"].unshift("B2C");
+                    }
+                    if (e["Business Model"][0] === "B2C" && e["Business Model"][1] === "B2B") return -1;
+                    if (e["Business Model"][0] === "B2C" && e["Business Model"][1] === "B2G") return 1;
                     if (e["Business Model"][0] === "B2G" && e["Business Model"][1] === "B2C") return -1;
                     if (e["Business Model"][0] === "B2G" && e["Business Model"][1] === "B2B") return 1;
                     if (e["Business Model"][0] === "B2B" && e["Business Model"][1] === "B2G") return -1;
