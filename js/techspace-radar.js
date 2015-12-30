@@ -297,7 +297,7 @@ function showCompanyInfo(e, t, n) {
     }
     r.find(".orbits").html("");
     if(e["Challenge Area"].length >= 1){
-        r.find(".orbit").html("<strong>Urban Impact :</strong> "+e["Challenge Area"].join(", ")); 
+        r.find(".orbits").html("<strong>Urban Impact :</strong> "+e["Challenge Area"].join(", ")); 
     }    
 }
 
