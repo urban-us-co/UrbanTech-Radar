@@ -2,7 +2,7 @@ function loadData() {
     var e = ["B2C", "B2G", "B2B"];
     d3.csv("data/radar.csv", function(t) {
         t = _.each(t, function(e) {
-            e.Orbit = e.Orbit.split(", ").join(" "), e["Challenge Area"] = e["Challenge Area"].split("|"), e["Business Model"] = e["Business Model"].split("|"), e["Channel"] = e["Business Model"], e.Industry = e.Industry.replace("| ", "|").trim().split("|"), keywords = keywords.concat(e.Industry), tags = tags.concat(e.Industry), keywords.push(e["Company Name"].trim()), e.Industry = e.Industry.join(" ")
+            e.Orbit = e.Orbit.split(", ").join(" "), e["Challenge Area"] = e["Challenge Area"].split("|"), e["Business Model"] = e["Business Model"].split("|"), e["Channel"] = e["Business Model"], e.Industry = e.Industry.replace("| ", "|").trim().split("|"), keywords = keywords.concat(e.Industry), tags = tags.concat(e.Industry), keywords.push(e["Company Name"].trim()), Array.prototype.push.apply(keywords,e["Investors"].split("|")), e.Industry = e.Industry.join(" ")
         }), featuredCompanies = _.filter(t, function(e) {
             var t = !1;
             //for (var n = 0; n < featuredCompanies.length; n++) 
