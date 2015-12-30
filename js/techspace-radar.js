@@ -1,6 +1,6 @@
 function loadData() {
     var e = ["B2C", "B2G", "B2B"];
-    d3.csv("data/radar2.csv", function(t) {
+    d3.csv("data/radar.csv", function(t) {
         t = _.each(t, function(e) {
             e.Orbit = e.Orbit.split(", ").join(" "), e["Business Model"] = e["Business Model"].split("|"), e.Industry = e.Industry.replace("| ", "|").trim().split("|"), keywords = keywords.concat(e.Industry), tags = tags.concat(e.Industry), keywords.push(e["Company Name"].trim()), e.Industry = e.Industry.join(" ")
         }), featuredCompanies = _.filter(t, function(e) {
