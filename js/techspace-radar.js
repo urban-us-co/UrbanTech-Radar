@@ -296,6 +296,7 @@ function showCompanyInfo(e, t, n) {
         r.find(".channel").html("<strong>Distribution Channel :</strong> "+e["Channel"].join(", ")); 
     }
     r.find(".orbits").html("");
+    console.log("e[Challenge Area].length",e["Challenge Area"].length)
     if(e["Challenge Area"].length >= 1){
         r.find(".orbits").html("<strong>Urban Impact :</strong> "+e["Challenge Area"].join(", ")); 
     }    
