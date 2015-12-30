@@ -287,18 +287,21 @@ function showCompanyInfo(e, t, n) {
     if(e["Investors"].split("|").length >= 1){
         if(e["Investors"].split("|")[0] !== ""){
             var investors = jQuery.unique(e["Investors"].split("|"));
-            r.find(".investors").html("<strong>Investors :</strong> "+investors.join(", "));
+            r.find(".investors").html("<strong>Investors :</strong> "+investors.join(", ")+"<br><br>");
         } 
         
     }
-    r.find(".channel").html("");
+    r.find(".funding").html("");
+    if(e["Stage"].length >= 1){
+        r.find(".funding").html("<strong>Funding Stage :</strong> "+e["Stage"].join(", ") + "<br>"); 
+    }    
     if(e["Channel"].length >= 1){
-        r.find(".channel").html("<strong>Distribution Channel :</strong> "+e["Channel"].join(", ")); 
+        r.find(".channel").html("<strong>Distribution Channel :</strong> "+e["Channel"].join(", ") + "<br>"); 
     }
     r.find(".orbits").html("");
     console.log("e[Challenge Area].length",e["Challenge Area"].length)
     if(e["Challenge Area"].length >= 1){
-        r.find(".orbits").html("<strong>Urban Impact :</strong> "+e["Challenge Area"].join(", ")); 
+        r.find(".orbits").html("<strong>Urban Impact :</strong> "+e["Challenge Area"].join(", ") + "<br>"); 
     }    
 }
 
