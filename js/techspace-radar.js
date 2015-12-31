@@ -332,6 +332,7 @@ function searchByKeywords(e) {
 }
 
 function filterCompanies() {
+    console.log(problemareas);
     var e = $("button[data-orbit].active"),
         t = $("button[data-problemarea].active"),
         n = $(".search.tt-input").val().toLowerCase();
