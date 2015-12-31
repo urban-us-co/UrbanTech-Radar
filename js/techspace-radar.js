@@ -49,7 +49,8 @@ function loadData() {
                 }
                 return 0
             }), e
-        }), drawCircles(), drawCompanies(problemareas, 1)
+        }), drawCircles(), drawCompanies(problemareas, 1);
+        console.log(problemareas);
     })
 }
 
