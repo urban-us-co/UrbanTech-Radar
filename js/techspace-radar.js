@@ -346,7 +346,7 @@ function filterCompanies() {
                 u = r["Company Name"].toLowerCase(),
                 v = r["Investors"].toLowerCase(),
                 a;
-            if (o.indexOf(n) > -1 || u.indexOf(n) > -1) return !0;
+            if (o.indexOf(n) > -1 || u.indexOf(n) > -1 || v.indexOf(n) > -1) return !0;
             if (n) return !1;
             for (a = 0; a < e.length; a++)
                 if (s.indexOf($(e[a]).attr("data-orbit").toLowerCase()) > -1) return !0;
