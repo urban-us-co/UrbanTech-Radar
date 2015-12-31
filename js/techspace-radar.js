@@ -343,6 +343,7 @@ function filterCompanies() {
                 s = r.Orbit.toLowerCase(),
                 o = r.Industry.toLowerCase(),
                 u = r["Company Name"].toLowerCase(),
+                v = r.["Investors"].toLowerCase(),
                 a;
             if (o.indexOf(n) > -1 || u.indexOf(n) > -1) return !0;
             if (n) return !1;
